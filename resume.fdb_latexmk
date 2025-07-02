@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1751440567.97093 "resume.tex" "resume.pdf" "resume" 1751440568.41156 0
+["pdflatex"] 1751441425.6527 "resume.tex" "resume.pdf" "resume" 1751441426.08552 0
   "/usr/local/texlive/2024basic/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2024basic/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
   "/usr/local/texlive/2024basic/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
@@ -82,12 +82,12 @@
   "/usr/local/texlive/2024basic/texmf-var/web2c/pdftex/pdflatex.fmt" 1736526562 2654932 90e9d32e74c9081db9801d8acec2df3a ""
   "/usr/local/texlive/2024basic/texmf.cnf" 1736526545.24317 743 c55ccf82ffd104d6291d94c97d559065 ""
   "awards.tex" 1748465737.20293 295 b3a86f3684e0ddba56300c8571e8a941 ""
-  "education.tex" 1751439163.06107 289 9258518468a9cb71239a63ebffa2ddd7 ""
-  "experience.tex" 1751440331.36272 2661 148acdb9c930af4cd2713cbd854cf982 ""
+  "education.tex" 1751440776.88537 298 c17c91912b354d9968c131e4f923bb8e ""
+  "experience.tex" 1751441424.91639 3010 56e94d37541efe9bbae57611df0d2216 ""
   "projects.tex" 1748465597.45797 1626 d476d684adf226ba616f5a3093f8e6a5 ""
-  "resume.aux" 1751440568.36431 280 6b828094e00234c0864beebb1893eb25 "pdflatex"
-  "resume.out" 1751440568.31404 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "resume.tex" 1751440567.32234 3336 f8a61b2f0e4b154add789ebfbb872d57 ""
+  "resume.aux" 1751441426.04464 280 6b828094e00234c0864beebb1893eb25 "pdflatex"
+  "resume.out" 1751441425.999 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "resume.tex" 1751440585.2005 3336 f8a61b2f0e4b154add789ebfbb872d57 ""
   "skills.tex" 1742434552.75663 342 96871208c3a795224dcb66694ecef72b ""
   (generated)
   "resume.aux"
