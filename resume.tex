@@ -39,47 +39,58 @@
   \vspace{-15.5pt}\scshape\raggedright\large
 }{}{0em}{}[\vspace{-4.5pt}\sectionrule\vspace{-3pt}]
 
-\newcommand{\resumeEducation}[4]{
+% Updated macros for fixed-width right column to prevent overflow
+
+%----------------------
+% EDUCATION ENTRY
+% #1 = Institution & Degree, #2 = Dates, #3 = Field/Location, #4 = Graduation
+\newcommand{\resumeEducation}[4]{%
   \vspace{-5pt}\item
-    \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & \textbf{#2} \\
-      \textit{#3} & \textit{#4} \\
-    \end{tabular*}\vspace{-4pt}
+  \noindent\textbf{#1}\hfill\textbf{#2}\\
+  \noindent #3\hfill #4\\
 }
 
-\newcommand{\resumeAward}[3]{
-  \vspace{-5pt}\item
-    \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
-        \textbf{#1} \textit{#2} & \textbf{#3} \\
-    \end{tabular*}\vspace{-11pt}
+%----------------------
+% AWARD ENTRY
+% #1 = Award Name, #2 = Issuer, #3 = Year
+\newcommand{\resumeAward}[3]{%
+  \vspace{-3pt}\item
+  \noindent\textbf{#1} #2\hfill\textbf{#3}\\
 }
 
-\newcommand{\resumeSkills}[2]{
+%----------------------
+% EXPERIENCE ENTRY
+% #1 = Title, #2 = Employer/Location, #3 = Dates, #4 = City/State
+\newcommand{\resumeExperience}[4]{%
+  \noindent\textbf{#1}\hfill\textbf{#4}\\
+  \vspace{-7pt}
+  \noindent \textbf{#2}\hfill #3\\
+  \vspace{-7pt}
+}
+
+%----------------------
+% PROJECT ENTRY
+% #1 = Project Name, #2 = Role/Technologies, #3 = Dates
+\newcommand{\resumeProjectHeading}[3]{%
   \vspace{-2pt}\item
-  \raggedright \textbf{#1}: #2
+  \noindent\textbf{#1} $|$ #2\hfill\textbf{#3}\\
+  \vspace{-7pt}
 }
 
-\newcommand{\resumeExperience}[4]{
+%----------------------
+% SKILLS ENTRY
+% #1 = Category, #2 = List
+\newcommand{\resumeSkills}[2]{%
   \vspace{-2pt}\item
-    \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & \textbf{#4} \\
-      \textit{#2} & \textit{#3} \\
-    \end{tabular*}\vspace{-7pt}
+  \raggedright\textbf{#1}: #2
 }
 
-\newcommand{\resumeProjectHeading}[3]{
-    \vspace{-3pt}\item
-        \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
-          \textbf{#1} $|$ \textit{#2} & \textbf{#3} \\
-        \end{tabular*}\vspace{-7pt}
-}
-
+% Keep other list setups
 \renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
-
-\newcommand{\resumeItem}[1]{\item\small{#1}}
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, rightmargin=0in, label={}]}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, rightmargin=0in, label={}]}  
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItem}[1]{\item\small{#1}}
 \newcommand{\resumeItemListEnd}{\end{itemize}}
 
 
